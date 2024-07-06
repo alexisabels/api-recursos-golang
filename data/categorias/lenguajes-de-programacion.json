@@ -1,78 +1,78 @@
 {
   "nombre": "Lenguajes de Programación",
-  "introduccion": "Los lenguajes de programación son fundamentales para el desarrollo de software...",
+  "introduccion": "Los lenguajes de programación son fundamentales para el desarrollo de software y permiten la creación de aplicaciones que facilitan nuestras vidas. Desde la web hasta la inteligencia artificial, los lenguajes de programación nos permiten comunicar nuestras ideas a las computadoras de manera eficiente y efectiva. A lo largo de los años, han surgido muchos lenguajes de programación, cada uno con sus propias características y usos específicos, ofreciendo a los desarrolladores una amplia gama de herramientas para solucionar problemas complejos.",
   "imagen": "https://img.icons8.com/fluency/144/000000/code.png",
   "lenguajes": [
     {
       "nombre": "JavaScript",
-      "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web.",
+      "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web, permitiendo crear páginas dinámicas y aplicaciones interactivas.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       "link": "/lenguajes-de-programacion/javascript"
     },
     {
       "nombre": "Python",
-      "descripcion": "Python es un lenguaje de programación versátil y fácil de aprender.",
+      "descripcion": "Python es un lenguaje de programación versátil y fácil de aprender, conocido por su simplicidad y amplia gama de aplicaciones.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       "link": "/lenguajes-de-programacion/python"
     },
     {
       "nombre": "Java",
-      "descripcion": "Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos y específicamente diseñado para tener tan pocas dependencias de implementación como sea posible.",
+      "descripcion": "Java es un lenguaje de programación de propósito general, concurrente y orientado a objetos, diseñado para tener pocas dependencias de implementación y ser altamente portátil.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
       "link": "/lenguajes-de-programacion/java"
     },
     {
       "nombre": "C++",
-      "descripcion": "C++ es un lenguaje de programación de propósito general creado como una extensión del lenguaje de programación C.",
+      "descripcion": "C++ es un lenguaje de programación de propósito general creado como una extensión del lenguaje de programación C, ofreciendo características de programación de alto nivel y de bajo nivel.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
       "link": "/lenguajes-de-programacion/cplusplus"
     },
     {
       "nombre": "Ruby",
-      "descripcion": "Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos.",
+      "descripcion": "Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos, conocido por su simplicidad y productividad.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
       "link": "/lenguajes-de-programacion/ruby"
     },
     {
       "nombre": "PHP",
-      "descripcion": "PHP es un lenguaje de programación de uso general que está especialmente diseñado para el desarrollo web.",
+      "descripcion": "PHP es un lenguaje de programación de uso general, especialmente diseñado para el desarrollo web y ampliamente utilizado en la creación de sitios dinámicos.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
       "link": "/lenguajes-de-programacion/php"
     },
     {
       "nombre": "Go",
-      "descripcion": "Go es un lenguaje de programación concurrente y compilado inspirado en la sintaxis de C.",
+      "descripcion": "Go es un lenguaje de programación concurrente y compilado, inspirado en la sintaxis de C y conocido por su eficiencia y facilidad de uso.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
       "link": "/lenguajes-de-programacion/go"
     },
     {
       "nombre": "Swift",
-      "descripcion": "Swift es un lenguaje de programación compilado creado por Apple.",
+      "descripcion": "Swift es un lenguaje de programación compilado, creado por Apple para desarrollar aplicaciones para iOS y macOS, conocido por su seguridad y rapidez.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
       "link": "/lenguajes-de-programacion/swift"
     },
     {
       "nombre": "Kotlin",
-      "descripcion": "Kotlin es un lenguaje de programación estáticamente tipado que corre en la máquina virtual de Java.",
+      "descripcion": "Kotlin es un lenguaje de programación estáticamente tipado que corre en la máquina virtual de Java, conocido por su interoperabilidad con Java y su moderna sintaxis.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
       "link": "/lenguajes-de-programacion/kotlin"
     },
     {
       "nombre": "R",
-      "descripcion": "R es un lenguaje de programación y entorno de software para el análisis estadístico.",
+      "descripcion": "R es un lenguaje de programación y entorno de software para el análisis estadístico y gráfico, ampliamente utilizado en investigación y ciencia de datos.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
       "link": "/lenguajes-de-programacion/r"
     },
     {
       "nombre": "TypeScript",
-      "descripcion": "TypeScript es un superconjunto de JavaScript que añade tipos estáticos.",
+      "descripcion": "TypeScript es un superconjunto de JavaScript que añade tipos estáticos, mejorando la robustez y mantenibilidad del código.",
       "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       "link": "/lenguajes-de-programacion/typescript"
     },
     {
       "nombre": "Rust",
-      "descripcion": "Rust es un lenguaje de programación de sistemas que enfatiza la seguridad y el rendimiento.",
-      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
+      "descripcion": "Rust es un lenguaje de programación de sistemas que enfatiza la seguridad y el rendimiento, evitando errores de memoria y garantizando concurrencia segura.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg",
       "link": "/lenguajes-de-programacion/rust"
     }
   ]

@@ -1,39 +1,84 @@
 {
   "nombre": "JavaScript",
   "introduccion": {
-    "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web.",
-    "importancia": "Es fundamental para el desarrollo de aplicaciones web interactivas."
+    "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web. Permite a los desarrolladores crear páginas web interactivas y dinámicas. JavaScript puede ser utilizado tanto en el frontend como en el backend, gracias a entornos como Node.js.",
+    "importancia": "Es fundamental para el desarrollo de aplicaciones web interactivas. JavaScript es uno de los lenguajes más populares del mundo, y su conocimiento es esencial para cualquier desarrollador web. Además, su ecosistema rico en bibliotecas y frameworks lo hace una herramienta versátil y poderosa."
   },
+  "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   "libros": [
     {
       "titulo": "Eloquent JavaScript",
-      "descripcion": "A modern introduction to programming.",
+      "descripcion": "A modern introduction to programming. Este libro cubre desde los fundamentos del lenguaje hasta técnicas avanzadas.",
       "link": "https://eloquentjavascript.net/"
+    },
+    {
+      "titulo": "JavaScript: The Good Parts",
+      "descripcion": "Un análisis profundo de las mejores características del lenguaje JavaScript.",
+      "link": "https://www.oreilly.com/library/view/javascript-the-good/9780596517748/"
+    },
+    {
+      "titulo": "You Don't Know JS",
+      "descripcion": "Una serie de libros que profundizan en los aspectos más complejos de JavaScript.",
+      "link": "https://github.com/getify/You-Dont-Know-JS"
     }
   ],
   "cheatSheets": [
     {
       "titulo": "JavaScript Syntax Cheat Sheet",
       "link": "https://example.com/js-cheat-sheet"
+    },
+    {
+      "titulo": "JavaScript Array Methods Cheat Sheet",
+      "link": "https://www.freecodecamp.org/news/javascript-array-methods-cheat-sheet/"
+    },
+    {
+      "titulo": "JavaScript DOM Cheat Sheet",
+      "link": "https://simplecheatsheet.com/tag/javascript/"
     }
   ],
   "cursosOnline": [
     {
       "titulo": "JavaScript Basics",
-      "descripcion": "Curso introductorio en Coursera.",
+      "descripcion": "Curso introductorio en Coursera que cubre los fundamentos del lenguaje.",
       "link": "https://coursera.org/js-basics"
+    },
+    {
+      "titulo": "The Complete JavaScript Course 2021: From Zero to Expert!",
+      "descripcion": "Un curso completo en Udemy que lleva a los estudiantes desde los conceptos básicos hasta técnicas avanzadas.",
+      "link": "https://www.udemy.com/course/the-complete-javascript-course/"
+    },
+    {
+      "titulo": "JavaScript30",
+      "descripcion": "30 días de desafíos de JavaScript para mejorar tus habilidades.",
+      "link": "https://javascript30.com/"
     }
   ],
   "tutorialesArticulos": [
     {
       "titulo": "Understanding the Basics of JavaScript",
       "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+    },
+    {
+      "titulo": "JavaScript Promises: An Introduction",
+      "link": "https://developers.google.com/web/fundamentals/primers/promises"
+    },
+    {
+      "titulo": "JavaScript Event Loop Explained",
+      "link": "https://flaviocopes.com/javascript-event-loop/"
     }
   ],
   "videosEducativos": [
     {
       "titulo": "JavaScript Crash Course",
       "link": "https://youtube.com/js-crash-course"
+    },
+    {
+      "titulo": "JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour",
+      "link": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+    },
+    {
+      "titulo": "Advanced JavaScript Concepts",
+      "link": "https://www.youtube.com/watch?v=SBwoFkR4QbE"
     }
   ],
   "proyectosPracticos": [
@@ -41,18 +86,44 @@
       "titulo": "To-Do List App",
       "descripcion": "Build a to-do list application using vanilla JavaScript.",
       "link": "https://example.com/to-do-list-app"
+    },
+    {
+      "titulo": "Weather App",
+      "descripcion": "Create a weather application that fetches data from an API and displays it dynamically.",
+      "link": "https://example.com/weather-app"
+    },
+    {
+      "titulo": "Memory Game",
+      "descripcion": "Develop a memory game with JavaScript to improve your understanding of DOM manipulation.",
+      "link": "https://example.com/memory-game"
     }
   ],
   "recursosWeb": [
     {
       "titulo": "MDN Web Docs: JavaScript",
       "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "titulo": "W3Schools JavaScript Tutorial",
+      "link": "https://www.w3schools.com/js/"
+    },
+    {
+      "titulo": "JavaScript Info",
+      "link": "https://javascript.info/"
     }
   ],
   "comunidadesForos": [
     {
       "titulo": "Stack Overflow: JavaScript",
       "link": "https://stackoverflow.com/questions/tagged/javascript"
+    },
+    {
+      "titulo": "Reddit: Learn JavaScript",
+      "link": "https://www.reddit.com/r/learnjavascript/"
+    },
+    {
+      "titulo": "JavaScript Weekly",
+      "link": "https://javascriptweekly.com/"
     }
   ]
 }
