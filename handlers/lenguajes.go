@@ -10,26 +10,25 @@ import (
 )
 
 func GetLenguaje(c *gin.Context) {
-	lenguaje := c.Param("lenguaje")
-	dir, err := os.Getwd()
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo obtener el directorio de trabajo"})
-		return
-	}
-	// Construir la ruta absoluta al archivo JSON
-	filePath := filepath.Join(dir, "data", "lenguajes-de-programacion", lenguaje+".json")
+    lenguaje := c.Param("lenguaje")
+    dir, err := os.Getwd()
+    if err != nil {
+        c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo obtener el directorio de trabajo"})
+        return
+    }
+    filePath := filepath.Join(dir, "data", "lenguajes-de-programacion", lenguaje+".json")
 
-	data, err := os.ReadFile(filePath)
-	if err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-		return
-	}
+    data, err := os.ReadFile(filePath)
+    if err != nil {
+        c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+        return
+    }
 
-	var lenguajeData interface{}
-	if err := json.Unmarshal(data, &lenguajeData); err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-		return
-	}
+    var lenguajeData interface{}
+    if err := json.Unmarshal(data, &lenguajeData); err != nil {
+        c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+        return
+    }
 
-	c.JSON(http.StatusOK, lenguajeData)
+    c.JSON(http.StatusOK, lenguajeData)
 }
