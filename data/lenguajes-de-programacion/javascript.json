@@ -1,0 +1,58 @@
+{
+  "nombre": "JavaScript",
+  "introduccion": {
+    "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web.",
+    "importancia": "Es fundamental para el desarrollo de aplicaciones web interactivas."
+  },
+  "libros": [
+    {
+      "titulo": "Eloquent JavaScript",
+      "descripcion": "A modern introduction to programming.",
+      "link": "https://eloquentjavascript.net/"
+    }
+  ],
+  "cheatSheets": [
+    {
+      "titulo": "JavaScript Syntax Cheat Sheet",
+      "link": "https://example.com/js-cheat-sheet"
+    }
+  ],
+  "cursosOnline": [
+    {
+      "titulo": "JavaScript Basics",
+      "descripcion": "Curso introductorio en Coursera.",
+      "link": "https://coursera.org/js-basics"
+    }
+  ],
+  "tutorialesArticulos": [
+    {
+      "titulo": "Understanding the Basics of JavaScript",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+    }
+  ],
+  "videosEducativos": [
+    {
+      "titulo": "JavaScript Crash Course",
+      "link": "https://youtube.com/js-crash-course"
+    }
+  ],
+  "proyectosPracticos": [
+    {
+      "titulo": "To-Do List App",
+      "descripcion": "Build a to-do list application using vanilla JavaScript.",
+      "link": "https://example.com/to-do-list-app"
+    }
+  ],
+  "recursosWeb": [
+    {
+      "titulo": "MDN Web Docs: JavaScript",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    }
+  ],
+  "comunidadesForos": [
+    {
+      "titulo": "Stack Overflow: JavaScript",
+      "link": "https://stackoverflow.com/questions/tagged/javascript"
+    }
+  ]
+}

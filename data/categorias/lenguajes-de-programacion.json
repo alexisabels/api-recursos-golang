@@ -1,0 +1,19 @@
+{
+  "nombre": "Lenguajes de Programación",
+  "introduccion": "Los lenguajes de programación son fundamentales para el desarrollo de software...",
+  "imagen": "path/to/lenguajes_programacion.jpg",
+  "lenguajes": [
+    {
+      "nombre": "JavaScript",
+      "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web.",
+      "imagen": "path/to/javascript.jpg",
+      "link": "/lenguajes-de-programacion/javascript"
+    },
+    {
+      "nombre": "Python",
+      "descripcion": "Python es un lenguaje de programación versátil y fácil de aprender.",
+      "imagen": "path/to/python.jpg",
+      "link": "/lenguajes-de-programacion/python"
+    }
+  ]
+}
