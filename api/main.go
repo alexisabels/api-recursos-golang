@@ -25,18 +25,27 @@ func Handler(w http.ResponseWriter, r *http.Request) {
     router.GET("/api/categorias/lenguajes-de-programacion", handlers.GetLenguajesProgramacion)
     router.GET("/api/categorias/lenguajes-de-programacion/:lenguaje", handlers.GetLenguaje)
     router.GET("/api/categorias", handlers.GetCategorias)
+
+    // Endpoint temporal para verificar archivos
     router.GET("/api/check-files", func(c *gin.Context) {
         dir, err := os.Getwd()
         if err != nil {
             c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo obtener el directorio de trabajo"})
             return
         }
-        filePath := filepath.Join(dir, "data", "categorias", "categorias.json")
-        if _, err := os.Stat(filePath); os.IsNotExist(err) {
-            c.JSON(http.StatusNotFound, gin.H{"error": "Archivo no encontrado: categorias.json"})
+        dataDir := filepath.Join(dir, "data")
+        files, err := os.ReadDir(dataDir)
+        if err != nil {
+            c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
             return
         }
-        c.JSON(http.StatusOK, gin.H{"message": "Archivo encontrado: categorias.json"})
+
+        fileNames := []string{}
+        for _, file := range files {
+            fileNames = append(fileNames, file.Name())
+        }
+
+        c.JSON(http.StatusOK, gin.H{"files": fileNames})
     })
 
     router.ServeHTTP(w, r)
