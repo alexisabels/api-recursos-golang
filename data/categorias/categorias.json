@@ -33,5 +33,120 @@
     "nombre": "Inteligencia Artificial y Machine Learning",
     "descripcion": "Adéntrate en el mundo de la IA y el aprendizaje automático, explorando sus aplicaciones y teorías.",
     "imagen": "/images/inteligencia_artificial.jpg"
+  },
+  {
+    "nombre": "Ciberseguridad",
+    "descripcion": "Explora las técnicas y herramientas para proteger sistemas, redes y programas de ataques digitales.",
+    "imagen": "/images/ciberseguridad.jpg"
+  },
+  {
+    "nombre": "Desarrollo Móvil",
+    "descripcion": "Aprende a crear aplicaciones móviles eficientes y efectivas para diversas plataformas.",
+    "imagen": "/images/desarrollo_movil.jpg"
+  },
+  {
+    "nombre": "Internet de las Cosas (IoT)",
+    "descripcion": "Descubre cómo los dispositivos interconectados transforman nuestra interacción con el mundo real.",
+    "imagen": "/images/internet_de_las_cosas.jpg"
+  },
+  {
+    "nombre": "Computación en la Nube",
+    "descripcion": "Domina las plataformas de nube y entiende sus aplicaciones en el almacenamiento y procesamiento de datos.",
+    "imagen": "/images/computacion_en_la_nube.jpg"
+  },
+  {
+    "nombre": "Redes y Protocolos",
+    "descripcion": "Profundiza en la estructura, funcionamiento y estándares de las redes informáticas.",
+    "imagen": "/images/redes_y_protocolos.jpg"
+  },
+  {
+    "nombre": "Robótica",
+    "descripcion": "Explora el diseño, construcción y operación de robots para diversas aplicaciones.",
+    "imagen": "/images/robotica.jpg"
+  },
+  {
+    "nombre": "Realidad Aumentada y Virtual",
+    "descripcion": "Aprende sobre las tecnologías que combinan o crean entornos digitales para interactuar.",
+    "imagen": "/images/realidad_aumentada_y_virtual.jpg"
+  },
+  {
+    "nombre": "Big Data y Análisis de Datos",
+    "descripcion": "Domina las herramientas y técnicas para analizar grandes volúmenes de datos y extraer información valiosa.",
+    "imagen": "/images/big_data_y_analisis_de_datos.jpg"
+  },
+  {
+    "nombre": "Desarrollo de Videojuegos",
+    "descripcion": "Crea videojuegos emocionantes y atractivos, aprendiendo sobre gráficos, física y narrativa.",
+    "imagen": "/images/desarrollo_de_videojuegos.jpg"
+  },
+  {
+    "nombre": "Software de Control de Versiones",
+    "descripcion": "Gestiona cambios en el código fuente y colabora eficientemente en proyectos de desarrollo de software.",
+    "imagen": "/images/software_de_control_de_versiones.jpg"
+  },
+  {
+    "nombre": "Testing y QA",
+    "descripcion": "Asegura la calidad y el correcto funcionamiento de software mediante pruebas y métodos de evaluación.",
+    "imagen": "/images/testing_y_qa.jpg"
+  },
+  {
+    "nombre": "Arquitectura de Software",
+    "descripcion": "Diseña y organiza sistemas complejos, asegurando eficiencia y escalabilidad.",
+    "imagen": "/images/arquitectura_de_software.jpg"
+  },
+  {
+    "nombre": "Metodologías de Desarrollo",
+    "descripcion": "Explora diversas metodologías de desarrollo de software, desde Agile hasta DevOps.",
+    "imagen": "/images/metodologias_de_desarrollo.jpg"
+  },
+  {
+    "nombre": "Blockchain y Criptomonedas",
+    "descripcion": "Descubre cómo las tecnologías de blockchain están revolucionando las transacciones digitales y la seguridad de datos.",
+    "imagen": "/images/blockchain_y_criptomonedas.jpg"
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Aprende sobre el proceso sistemático de desarrollo de software para crear productos de alta calidad.",
+    "imagen": "/images/ingenieria_de_software.jpg"
+  },
+  {
+    "nombre": "Microservicios",
+    "descripcion": "Implementa arquitecturas basadas en microservicios para construir aplicaciones escalables y fáciles de mantener.",
+    "imagen": "/images/microservicios.jpg"
+  },
+  {
+    "nombre": "API y Servicios Web",
+    "descripcion": "Desarrolla y utiliza APIs y servicios web para construir aplicaciones interconectadas y eficientes.",
+    "imagen": "/images/api_y_servicios_web.jpg"
+  },
+  {
+    "nombre": "Automatización",
+    "descripcion": "Automatiza procesos y tareas para mejorar la eficiencia y la efectividad en el entorno tecnológico.",
+    "imagen": "/images/automatizacion.jpg"
+  },
+  {
+    "nombre": "Administración de Sistemas",
+    "descripcion": "Gestiona y mantiene operativos los sistemas informáticos en diferentes plataformas y entornos.",
+    "imagen": "/images/administracion_de_sistemas.jpg"
+  },
+  {
+    "nombre": "Procesamiento de Lenguaje Natural",
+    "descripcion": "Explora cómo las computadoras pueden entender y procesar datos lingüísticos humanos.",
+    "imagen": "/images/procesamiento_de_lenguaje_natural.jpg"
+  },
+  {
+    "nombre": "Visualización de Datos",
+    "descripcion": "Aprende a representar datos complejos de manera visual y comprensible para facilitar el análisis.",
+    "imagen": "/images/visualizacion_de_datos.jpg"
+  },
+  {
+    "nombre": "Desarrollo de Escritorio",
+    "descripcion": "Desarrolla aplicaciones nativas de escritorio para Windows, macOS o Linux.",
+    "imagen": "/images/desarrollo_de_escritorio.jpg"
+  },
+  {
+    "nombre": "Biometría y Reconocimiento Facial",
+    "descripcion": "Investiga y aplica tecnologías biométricas y de reconocimiento facial para seguridad y autenticación.",
+    "imagen": "/images/biometria_y_reconocimiento_facial.jpg"
   }
 ]
