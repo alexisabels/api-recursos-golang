@@ -33,7 +33,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
             c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo obtener el directorio de trabajo"})
             return
         }
-        dataDir := filepath.Join(dir, "data")
+        dataDir := filepath.Join(dir, "data", "categorias")
         files, err := os.ReadDir(dataDir)
         if err != nil {
             c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
