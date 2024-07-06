@@ -1,19 +1,79 @@
 {
   "nombre": "Lenguajes de Programación",
   "introduccion": "Los lenguajes de programación son fundamentales para el desarrollo de software...",
-  "imagen": "path/to/lenguajes_programacion.jpg",
+  "imagen": "https://img.icons8.com/fluency/144/000000/code.png",
   "lenguajes": [
     {
       "nombre": "JavaScript",
       "descripcion": "JavaScript es un lenguaje de programación utilizado principalmente para desarrollo web.",
-      "imagen": "path/to/javascript.jpg",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       "link": "/lenguajes-de-programacion/javascript"
     },
     {
       "nombre": "Python",
       "descripcion": "Python es un lenguaje de programación versátil y fácil de aprender.",
-      "imagen": "path/to/python.jpg",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       "link": "/lenguajes-de-programacion/python"
+    },
+    {
+      "nombre": "Java",
+      "descripcion": "Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos y específicamente diseñado para tener tan pocas dependencias de implementación como sea posible.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "link": "/lenguajes-de-programacion/java"
+    },
+    {
+      "nombre": "C++",
+      "descripcion": "C++ es un lenguaje de programación de propósito general creado como una extensión del lenguaje de programación C.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+      "link": "/lenguajes-de-programacion/cplusplus"
+    },
+    {
+      "nombre": "Ruby",
+      "descripcion": "Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
+      "link": "/lenguajes-de-programacion/ruby"
+    },
+    {
+      "nombre": "PHP",
+      "descripcion": "PHP es un lenguaje de programación de uso general que está especialmente diseñado para el desarrollo web.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+      "link": "/lenguajes-de-programacion/php"
+    },
+    {
+      "nombre": "Go",
+      "descripcion": "Go es un lenguaje de programación concurrente y compilado inspirado en la sintaxis de C.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+      "link": "/lenguajes-de-programacion/go"
+    },
+    {
+      "nombre": "Swift",
+      "descripcion": "Swift es un lenguaje de programación compilado creado por Apple.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+      "link": "/lenguajes-de-programacion/swift"
+    },
+    {
+      "nombre": "Kotlin",
+      "descripcion": "Kotlin es un lenguaje de programación estáticamente tipado que corre en la máquina virtual de Java.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+      "link": "/lenguajes-de-programacion/kotlin"
+    },
+    {
+      "nombre": "R",
+      "descripcion": "R es un lenguaje de programación y entorno de software para el análisis estadístico.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+      "link": "/lenguajes-de-programacion/r"
+    },
+    {
+      "nombre": "TypeScript",
+      "descripcion": "TypeScript es un superconjunto de JavaScript que añade tipos estáticos.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "link": "/lenguajes-de-programacion/typescript"
+    },
+    {
+      "nombre": "Rust",
+      "descripcion": "Rust es un lenguaje de programación de sistemas que enfatiza la seguridad y el rendimiento.",
+      "imagen": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg",
+      "link": "/lenguajes-de-programacion/rust"
     }
   ]
 }
