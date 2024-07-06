@@ -15,6 +15,7 @@ func GetLenguajesProgramacion(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo obtener el directorio de trabajo"})
 		return
 	}
+	// Construir la ruta absoluta al archivo JSON
 	filePath := filepath.Join(dir, "data", "categorias", "lenguajes-de-programacion.json")
 
 	data, err := os.ReadFile(filePath)
@@ -38,6 +39,7 @@ func GetCategorias(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "No se pudo obtener el directorio de trabajo"})
 		return
 	}
+	// Construir la ruta absoluta al archivo JSON
 	filePath := filepath.Join(dir, "data", "categorias", "categorias.json")
 
 	data, err := os.ReadFile(filePath)
