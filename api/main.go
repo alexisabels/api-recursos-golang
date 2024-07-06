@@ -2,7 +2,6 @@ package handler
 
 import (
 	"net/http"
-	"os"
 	"recursos/handlers"
 
 	"github.com/gin-contrib/cors"
@@ -26,12 +25,4 @@ func Handler(w http.ResponseWriter, r *http.Request) {
     router.GET("/api/categorias", handlers.GetCategorias)
 
     router.ServeHTTP(w, r)
-}
-
-func main() {
-    port := os.Getenv("PORT")
-    if port == "" {
-        port = "3000"
-    }
-    http.ListenAndServe(":" + port, http.HandlerFunc(Handler))
 }
