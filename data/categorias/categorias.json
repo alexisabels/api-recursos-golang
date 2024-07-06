@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Lenguajes de Programación",
+    "descripcion": "Explora los fundamentos y las aplicaciones avanzadas de diversos lenguajes de programación.",
+    "imagen": "/images/lenguajes_de_programacion.jpg"
+  },
+  {
+    "nombre": "Frameworks y Librerías",
+    "descripcion": "Descubre herramientas para agilizar el desarrollo de software y aplicaciones web.",
+    "imagen": "/images/frameworks_y_librerias.jpg"
+  },
+  {
+    "nombre": "Herramientas y Tecnologías",
+    "descripcion": "Conoce las últimas tecnologías y herramientas que están moldeando el futuro del desarrollo.",
+    "imagen": "/images/herramientas_y_tecnologias.jpg"
+  },
+  {
+    "nombre": "Conceptos de Programación",
+    "descripcion": "Profundiza en conceptos avanzados de programación y paradigmas.",
+    "imagen": "/images/conceptos_de_programacion.jpg"
+  },
+  {
+    "nombre": "Desarrollo Web",
+    "descripcion": "Aprende sobre el desarrollo de sitios y aplicaciones web desde el frontend al backend.",
+    "imagen": "/images/desarrollo_web.jpg"
+  },
+  {
+    "nombre": "Bases de Datos",
+    "descripcion": "Explora diferentes tipos de sistemas de gestión de bases de datos y su optimización.",
+    "imagen": "/images/bases_de_datos.jpg"
+  },
+  {
+    "nombre": "Inteligencia Artificial y Machine Learning",
+    "descripcion": "Adéntrate en el mundo de la IA y el aprendizaje automático, explorando sus aplicaciones y teorías.",
+    "imagen": "/images/inteligencia_artificial.jpg"
+  }
+]
