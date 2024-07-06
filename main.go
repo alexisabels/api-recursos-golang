@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os"
 	"recursos/handlers"
 
 	"github.com/gin-contrib/cors"
@@ -20,5 +21,10 @@ func main() {
     r.GET("/api/categorias/lenguajes-de-programacion", handlers.GetLenguajesProgramacion)
     r.GET("/api/categorias/lenguajes-de-programacion/:lenguaje", handlers.GetLenguaje)
 	r.GET("/api/categorias", handlers.GetCategorias)
-    r.Run("localhost:3000")
+
+    port := os.Getenv("PORT")
+    if port == "" {
+        port = "3000"
+    }
+    r.Run(":" + port)
 }
