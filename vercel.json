@@ -12,9 +12,7 @@
       "dest": "api/main.go"
     }
   ],
-  "functions": {
-    "api/main.go": {
-      "includeFiles": "data/**"
-    }
+  "files": {
+    "data/**/*": true
   }
 }
